@@ -1,6 +1,7 @@
-import "./style/Spinner.css";
+import React from "react";
+import "../style/Spinner.css";
 
-export function Spinner() {
+export function PDFLoadingSpinner() {
   return (
     <div
       style={{
